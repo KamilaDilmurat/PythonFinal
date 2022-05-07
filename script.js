@@ -68,12 +68,12 @@ require([
       });
     });
       
-     los.addEventListener('click', function() {
+     urm.addEventListener('click', function() {
       // reuse the default camera position already established in the homeBtn
       view.goTo({
         position: {
-          x: -118.4074,
-          y: 34.9042,
+          x: 87.6032,
+          y: 43.8095,
           z: 5000000
         },
         tilt: 0,
@@ -81,32 +81,7 @@ require([
       });
     });
     
-           
-     nyc.addEventListener('click', function() {
-      // reuse the default camera position already established in the homeBtn
-      view.goTo({
-        position: {
-          x: -74.4074,
-          y: 40.9042,
-          z: 1000000
-        },
-        tilt: 0,
-        heading: 0
-      });
-    });
-     syd.addEventListener('click', function() {
-      // reuse the default camera position already established in the homeBtn
-      view.goTo({
-        position: {
-          x: 151.4074,
-          y: -33.9042,
-          z: 5000000
-        },
-        tilt: 0,
-        heading: 0
-      });
-    });
-      
+   
    stl.addEventListener('click', function() {
       // reuse the default camera position already established in the homeBtn
       view.goTo({
